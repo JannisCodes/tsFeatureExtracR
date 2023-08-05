@@ -1,0 +1,30 @@
+Package: tsFeatureExtracR
+Type: Package
+Title: Functions for Feature Extraction, Feature Missingness Analysis and Imputation
+Version: 0.1.0
+Authors@R: 
+    person(given = "Jannis",
+           family = "Kreienkamp",
+           role = c("aut", "cre"),
+           email = "jannis@data-delight.com")
+Maintainer: The package maintainer <jannis@data-delight.com>
+Description: This package provides functions for the extraction of time series features, as well as functions for analyzing and dealing with missing data in extracted time series features. 
+    These functions make it easier to prepare datasets for machine learning or statistical modeling, and to understand the distribution of missing data.
+Depends: 
+    R (>= 4.1.0)
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    mice,
+    ggplot2,
+    ggthemes,
+    grid,
+    scales,
+    tibble,
+    nlme,
+    psych,
+    MASS,
+    mgcv
+RoxygenNote: 7.2.3
+License: MIT + file LICENSE
