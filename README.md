@@ -3,7 +3,7 @@
 [![CRAN status](https://www.r-pkg.org/badges/version/tsFeatureExtracR)](https://CRAN.R-project.org/package=tsFeatureExtracR)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-`tsFeatureExtracR` is a package for R that provides a set of functions for feature extraction from time series data. Additionally, it offers tools for analyzing and dealing with missing data in extracted time series features. These functionalities help to prepare datasets for machine learning or statistical modeling and gain a better understanding of the missing data distribution. 
+`tsFeatureExtracR` is a package for R that provides a set of functions for feature extraction from time series data. The focus is on meaningful time series features for psychological (ESM) data. Several of the calculations are based on the amazing work of the team working on the [tsfresh python package](https://tsfresh.readthedocs.io/en/latest/). The package additionally offers simple tools for analyzing and dealing with missing data in extracted time series features. These functionalities are aimed at understanding meaningful features of psychological time series and accompany a research paper on feature-based time series clustering in ESM research.
 
 ## Installation
 
