@@ -5,6 +5,8 @@
 #' @param concept The name of the current concept
 #' @param ts_feature The name of the current feature
 #'
+#' @importFrom stats t.test
+#'
 #' @return A t-test result
 #' @export
 

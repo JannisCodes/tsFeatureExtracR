@@ -23,6 +23,7 @@ Imports:
     scales,
     tibble,
     nlme,
+    stats,
     psych,
     MASS,
     mgcv
