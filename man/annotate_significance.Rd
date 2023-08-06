@@ -4,12 +4,14 @@
 \alias{annotate_significance}
 \title{Annotate a dataframe of t-test results with asterisks to indicate significance}
 \usage{
-annotate_significance(df, variableLab)
+annotate_significance(df, variableLab, join_by)
 }
 \arguments{
 \item{df}{A dataframe of t-test results}
 
 \item{variableLab}{A dataframe for variable labels}
+
+\item{join_by}{a vector or string indicating the id variables to merge the labels}
 }
 \value{
 An annotated dataframe

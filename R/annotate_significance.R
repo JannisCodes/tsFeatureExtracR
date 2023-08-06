@@ -2,6 +2,7 @@
 #'
 #' @param df A dataframe of t-test results
 #' @param variableLab A dataframe for variable labels
+#' @param join_by a vector or string indicating the id variables to merge the labels
 #'
 #' @return An annotated dataframe
 #'
@@ -9,9 +10,9 @@
 #'
 #' @export
 
-annotate_significance <- function(df, variableLab) {
+annotate_significance <- function(df, variableLab, join_by) {
   df <- df %>%
     dplyr::mutate(star = ifelse(p_value < 0.001, "***", ifelse(p_value < 0.01, "**", ifelse(p_value < 0.05, "*", "")))) %>%
-    dplyr::left_join(variableLab, by = c('concept' = 'variable'))
+    dplyr::left_join(variableLab, by = join_by)
   return(df)
 }
