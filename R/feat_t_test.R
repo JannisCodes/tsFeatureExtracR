@@ -16,5 +16,5 @@ feat_t_test <- function(df, cluster_var, concept, ts_feature) {
   group1 <- df[df[[cluster_var]] == unique(df[[cluster_var]])[1], column_name]
   group2 <- df[df[[cluster_var]] == unique(df[[cluster_var]])[2], column_name]
 
-  t.test(group1, group2)
+  t.test(group1, group2, na.action = na.omit)
 }
