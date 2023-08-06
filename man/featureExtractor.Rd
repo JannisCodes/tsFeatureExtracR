@@ -34,4 +34,5 @@ It standardizes the features, and outputs a list containing raw and standardized
 \dontrun{
 featureExtractor(df, c("item1", "item2"), "ID", "time")
 }
+
 }

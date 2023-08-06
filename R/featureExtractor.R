@@ -22,7 +22,6 @@
 #' \dontrun{
 #' featureExtractor(df, c("item1", "item2"), "ID", "time")
 #' }
-#' @export
 #'
 #' @importFrom dplyr %>% group_by summarise select filter arrange all_of any_of
 #' @importFrom stats lm median sd mad predict acf coef na.omit na.pass quantile
@@ -32,6 +31,9 @@
 #' @importFrom nlme corAR1
 #' @importFrom utils setTxtProgressBar txtProgressBar
 #' @importFrom ggplot2 aes ggplot geom_histogram labs
+#'
+#' @export
+
 
 featureExtractor <- function(data, items, pid, tid) {
 

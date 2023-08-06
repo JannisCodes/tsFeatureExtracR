@@ -20,4 +20,5 @@ Create a custom publication fill scale for ggplot
 library(ggplot2)
 ggplot(iris, aes(Species)) + geom_bar(aes(fill = Species)) + scale_fill_Publication()
 }
+
 }

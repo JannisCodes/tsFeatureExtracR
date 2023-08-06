@@ -20,4 +20,5 @@ Create a custom publication colour scale for ggplot
 library(ggplot2)
 ggplot(iris, aes(Species, fill = Species)) + geom_bar() + scale_colour_Publication()
 }
+
 }

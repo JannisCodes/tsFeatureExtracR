@@ -21,6 +21,7 @@
 #' imputedList <- featureImputer(extractorList)
 #' }
 #' @export
+
 featureImputer <- function(extractorList) {
   # Impute features with mice
   extractorList$featuresImp <- mice(

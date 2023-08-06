@@ -2,15 +2,20 @@
 #'
 #' @param base_size A number to set the base font size. Default is 14.
 #' @param base_family A character string specifying the base font family. Default is empty.
+#'
 #' @return A complete ggplot theme with the specified characteristics.
+#'
 #' @examples
 #' \dontrun{
 #' library(ggplot2)
 #' ggplot(iris, aes(Sepal.Length, Petal.Length)) + geom_point() + theme_Publication()
 #' }
+#'
 #' @importFrom ggplot2 theme element_text element_rect element_line rel element_blank
 #' @importFrom ggthemes theme_foundation
 #' @importFrom grid unit
+#'
+#' @export
 
 theme_Publication <- function(base_size=14, base_family="") {
   theme_foundation(base_size=base_size, base_family=base_family) +

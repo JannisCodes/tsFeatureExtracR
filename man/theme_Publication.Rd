@@ -22,4 +22,5 @@ Create a custom publication theme for ggplot
 library(ggplot2)
 ggplot(iris, aes(Sepal.Length, Petal.Length)) + geom_point() + theme_Publication()
 }
+
 }
