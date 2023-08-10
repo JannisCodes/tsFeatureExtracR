@@ -78,7 +78,7 @@ feature_ttest_apa <- function(results_df, concept_in, feature_in, language) {
     out <- paste("<i>difference</i> = ", diff,
                  ", <i>t</i>(", df, ") = ", t,
                  ", <i>p</i> ", p ,
-                 ", <i>95%CI</i> } [", lwr,
+                 ", <i>95%CI</i> [", lwr,
                  ", ", upr, "]",
                  sep = "")
   } else {
