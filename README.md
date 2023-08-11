@@ -9,7 +9,7 @@
 <td>
   
 <!-- Image on the left side -->
-<img src="assets/logo.png" alt="tsFeatureExtracR Logo" width="200"/>
+<img src="assets/logo.png" alt="tsFeatureExtracR Logo" width=".3%"/>
 
 </td>
 <td>
